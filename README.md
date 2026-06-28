@@ -16,10 +16,11 @@ Este projeto é uma aplicação simples para exibir informações sobre cursos e
    ```bash
    npm install
    ```
-3. Inicie a aplicação com:
+3. Para rodar o backend, rode:
    ```bash
-   npm start
+   node --watch ./index.js
    ```
+4. Para rodar o frontend abra diretamente o index.html na raiz do projeto
 
 ## Tecnologias
 
