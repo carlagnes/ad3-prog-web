@@ -1,0 +1,117 @@
+/* Cores e Fontes */
+:root {
+  --verde-ifc: #32a041;
+  --verde-escuro: #257a31;
+  --cinza-fundo: #f8f9fa;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--cinza-fundo);
+  margin: 0;
+  padding: 20px;
+}
+
+/* Navegação */
+nav ul {
+  background: var(--verde-ifc);
+  padding: 10px;
+  display: flex;
+  list-style: none;
+  border-radius: 5px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+/* Tabela */
+.header-tabela {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-top: 10px;
+}
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+  color: var(--verde-escuro);
+}
+
+/* ESTILO DO MODAL */
+.modal {
+  display: none; /* Escondido por padrão */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-conteudo {
+  background-color: white;
+  margin: 10% auto;
+  padding: 20px;
+  width: 350px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.fechar {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Formulário dentro do Modal */
+#form-professor,
+#form-curso {
+  display: flex;
+  flex-direction: column;
+}
+#form-professor label,
+#form-curso label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+#form-professor input,
+#form-curso input,
+#form-curso select {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.btn-primario {
+  background: var(--verde-ifc);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-primario:hover {
+  background: var(--verde-escuro);
+}
+
+.mt {
+  margin-top: 20px;
+}

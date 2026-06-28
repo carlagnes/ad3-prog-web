@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nome": "Desenvolvimento Web",
+    "sigla": "DW",
+    "descricao": "Legal",
+    "coordenador": "Jorge"
+  },
+  {
+    "id": 2,
+    "nome": "Banco de Dados",
+    "sigla": "BD",
+    "descricao": "Top",
+    "coordenador": "Carla"
+  },
+  {
+    "id": 4,
+    "nome": "test",
+    "sigla": "t1",
+    "descricao": "fdsvdf",
+    "coordenador": "Malu Cana"
+  }
+]

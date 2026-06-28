@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gestão Acadêmica - Cursos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="img\logo.png" alt="Logo IFC" class="logo" />
+      <h1>Gestão Acadêmica</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="cursos.html">Cadastro de Cursos</a></li>
+        <li><a href="professores.html">Cadastro de Professores</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="header-tabela">
+        <h2>Cursos Cadastrados</h2>
+        <button id="btn-abrir-modal" class="btn-primario">
+          Adicionar Curso
+        </button>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Nome do Curso</th>
+            <th>Sigla</th>
+            <th>Descrição</th>
+            <th>Coordenador(a)</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tabela-corpo"></tbody>
+      </table>
+    </main>
+
+    <div id="modal-container" class="modal">
+      <div class="modal-conteudo">
+        <span id="btn-fechar" class="fechar">&times;</span>
+        <h2>Novo Curso</h2>
+        <form id="form-curso">
+          <label for="nome-curso">Nome do Curso:</label>
+          <input type="text" id="nome-curso" required />
+
+          <label for="sigla">Sigla:</label>
+          <input type="text" id="sigla" required />
+
+          <label for="descricao">Descrição:</label>
+          <input type="text" id="descricao" required />
+
+          <label for="coordenador">Coordenador(a):</label>
+          <select id="coordenador" required>
+            <option value="">Selecione um professor</option>
+          </select>
+
+          <button type="submit" class="btn-primario mt">Salvar Curso</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="cursos.js"></script>
+  </body>
+</html>
