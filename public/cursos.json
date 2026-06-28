@@ -4,7 +4,7 @@
     "nome": "Desenvolvimento Web",
     "sigla": "DW",
     "descricao": "Legal",
-    "coordenador": "Jorge"
+    "coordenador": "Rafael"
   },
   {
     "id": 2,
@@ -15,9 +15,9 @@
   },
   {
     "id": 4,
-    "nome": "test",
-    "sigla": "t1",
-    "descricao": "fdsvdf",
-    "coordenador": "Malu Cana"
+    "nome": "Test",
+    "sigla": "T1",
+    "descricao": "Curso de teste",
+    "coordenador": "Mateus"
   }
 ]
